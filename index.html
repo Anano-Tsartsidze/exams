@@ -48,7 +48,7 @@
 		<div class="waxcontainer">
 		<div class="section-div ">
 		<img class="background" src="img/image7.jpg" alt="image">
-		<ul class="d-flex ul2">
+		<ul class="section-ul d-flex ul2">
 			<li class="section-li">
 				<h3 class="section-li1">Shop</h3>
 			</li>
@@ -167,15 +167,29 @@
 
 	<section class="socialsec">
 		<div class="waxcontainer">
-		<div class="social d-flex">
-			<i class="fab fa-facebook-f "></i>
-			<i class="fab fa-instagram "></i>
-			<i class="fab fa-behance "></i>
-			<i class="fab fa-twitter "></i>
-		</div>
-		<div>
-		<h4 class="special"> <span style="background-color: #F7B7B7">Special Benefits for Our Subscribers</span></h4>
-	</div>
+			<div class="right-block-contact">
+					<form class="form-block">
+                       <div class="form-box">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" class="input-form" placeholder="Write your Name..."  required>
+						</div>
+						<div class="form-box">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" class="input-form" placeholder="Write your Email..."  required>
+						</div>
+						<div class="form-box">
+							<label for="mypassword">Password</label>
+							<input type="password" name="mypassword" id="mypassword" class="input-form"  required maxlength="4" placeholder="Write your Password...">
+						</div>
+						<div class="form-box">
+							<label>Comment</label>
+							<textarea name="message" class="input-form" placeholder="Your opinion is important..."></textarea>
+						</div>
+
+						<button type="submit" class="btn-send">Submit</button>
+					</form>
+				</div>
+		</div>	
 	
 		</div>
 
